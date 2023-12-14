@@ -1,0 +1,165 @@
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="  .css">
+</head>
+
+
+
+@font-face {
+ 
+   font-family: IranSans;
+
+    src: url('../fonts/IRANSansWeb(FaNum).eot');
+
+    src: url('../fonts/IRANSansWeb(FaNum).ttf') format('truetype')
+
+}
+span{
+
+    font-family: IranSans;
+
+}
+
+
+
+h1 {
+
+font-family: Tahoma;
+
+font-style: bold;
+
+color: blue;
+
+}
+
+œ—Ê‰  êÌ: 
+
+<body>
+ 
+<h2 style="text-align:center; background-color:#123456; color:#fff;">”«Ì  ¬„Ê“‘Ì ›—Ì ·—‰</h2>
+ 
+</body>
+
+
+œ—Ê‰ ’›ÕÂ «Ì: 
+<head>
+<style>
+ 
+body{
+ background-color:#f2f2f2;
+ text-align:center;
+}
+ 
+h2{
+ color:blue;
+ background-color:#fff;
+ padding:10px;
+}
+ 
+p{
+ color:red;
+ background-color:#fff;
+ padding:10px;
+}
+ 
+</style>
+</head>
+
+œ—Ê‰ ›«Ì·Ì: 
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+⁄ò” œ—Ê‰ ÅÊ‘Â «Ì: 
+<img src="cat.gif">
+
+„À«·:
+<!DOCTYPE html>
+<html>
+ <head>
+ <style>
+
+ @font-face {
+  font-family: 'myfont';
+  src: url('myfont/font1.eot?#iefix') format('embedded-opentype'),
+  url('myfont/font1.woff') format('woff'),
+  url('myfont/font1.ttf') format('truetype'),
+  url('myfont/font1.svg#myfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+ }
+
+ body{
+ font-family:myfont;
+ text-align:center;
+ }
+
+ </style>
+ </head>
+<body>
+
+<p>”«Ì  ¬„Ê“‘Ì ›—Ì ·—‰</p>
+<p>¬„Ê“‘ ﬁœ„ »Â ﬁœ„ Ê Ã«„⁄ Ê —«Ìê«‰ “»«‰ ”Ì «” «” —« œ— ”«Ì  ¬„Ê“‘Ì ›—Ì ·—‰ œ‰»«· ‰„«ÌÌœ</p>
+<p>¬„Ê“‘ ﬁœ„ »Â ﬁœ„ Ê Ã«„⁄ Ê —«Ìê«‰ “»«‰ ”Ì «” «” —« œ— ”«Ì  ¬„Ê“‘Ì ›—Ì ·—‰ œ‰»«· ‰„«ÌÌœ</p>
+<p>¬„Ê“‘ ﬁœ„ »Â ﬁœ„ Ê Ã«„⁄ Ê —«Ìê«‰ “»«‰ ”Ì «” «” —« œ— ”«Ì  ¬„Ê“‘Ì ›—Ì ·—‰ œ‰»«· ‰„«ÌÌœ</p>
+
+</body>
+</html>
+
+—«”  çÌ‰ ò—œ‰ „ ‰:
+<p style="direction:rtl;text-align:right;">
+„ ‰ „Ê—œ ‰Ÿ—
+</p>
+Ã«” Ì›«Ì ò—œ‰ „ ‰:
+
+<p style="direction:rtl;text-align:justify;">
+„ ‰ „Ê—œ ‰Ÿ—
+</p>
+
+ €Ì— «‰œ«“Â ⁄ò”:
+<img src="T.png" width="600px" height="400px">
+
+
+„À«· »« ”«Ì“ Â«Ì „Œ ·›:
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/Vazir-Thin.eot");
+  src: url("fonts/Vazir-Thin.woff") format("woff"),
+    url("fonts/Vazir-Thin.ttf") format("ttf"),
+    url("fonts/Vazir-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/Vazir-Light.eot");
+  src: url("fonts/Vazir-Light.woff") format("woff"),
+    url("fonts/Vazir-Light.ttf") format("ttf"),
+    url("fonts/Vazir-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Vazir-Regular.eot");
+  src: url("fonts/Vazir-Regular.woff") format("woff"),
+    url("fonts/Vazir-Regular.ttf") format("ttf"),
+    url("fonts/Vazir-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 950;
+  src: url("fonts/Vazir-Black.eot");
+  src: url("fonts/Vazir-Black.woff") format("woff"),
+    url("fonts/Vazir-Black.ttf") format("ttf"),
+    url("fonts/Vazir-Black.woff2") format("woff2");
+}
+
+body {
+  font-family: vazir;
+  direction: rtl;
+}

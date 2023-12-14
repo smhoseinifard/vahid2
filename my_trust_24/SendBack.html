@@ -1,0 +1,18 @@
+{{ block title }}میزان بازپرداخت به فرد (الف){{ endblock }}
+{{ block content }}
+ <style>
+.otree-body {
+direction:rtl;text-align:justify;
+}
+ </style>
+
+    <p>
+        شما در نقش فرد (ب) هستید. فرد (الف) از 100 امتیاز خود به میزان {{ group.sent_amount }} واحد به شما پرداخت کرده است و شما معادل سه برابر آن یعنی مقدار {{ tripled_amount }} واحد را دریافت کرده اید. الان شما به میزان {{ tripled_amount }} واحد در اختیار دارید. از این مبلغ چه مقدار آن را به فرد (الف) برمیگردانید؟
+
+    </p>
+
+    {{ formfields }}
+    <p>{{ next_button }}</p>
+
+
+{{ endblock }}

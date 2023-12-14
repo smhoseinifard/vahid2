@@ -1,0 +1,32 @@
+{{ block title }}نتایج{{ endblock }}
+{{ block content }}
+
+ <style>
+.otree-body {
+direction:rtl;text-align:justify;
+}
+ </style>
+
+     <p>
+        شما در این بازی با دارایی اولیه {{ C.ENDOWMENT }} واحد شروع کردید و مقدار <strong>{{ player.contribution }}</strong> واحد را جهت مشارکت در کالای عمومی پرداخت کردید.
+
+     </p>
+     <p>
+         سه نفری که همگروه شما بودند به طور متوسط مقدار <strong> {{average_others}}</strong> واحد(این عدد ممکن است رند شده باشد) مشارکت کردند که مجموعا مشارکت آنها {{total_others}} واحد شده است.
+
+     </p>
+     <p>
+         بنابراین مجموع 4 نفر شما به میزان {{ group.total_contribution }} واحد مشارکت داشتید. این مبلغ ضرب در {{ C.MULTIPLIER }} گردید و بین هر چهار نفر شما به طور مساوی تقسیم و معادل {{ group.individual_share }} واحد(این عدد ممکن است رند شده باشد) به هر نفر از شما پرداخت شد.
+     </p>
+     <p>
+       دارایی نهایی شما برابر است با دارایی اولیه شما منهای آنچه جهت مشارکت پرداخت کردید به علاوه مبلغی که از ناحیه مشارکت کل به صورت مساوی به همه شما پرداخت گردید.
+     </p>
+     <p>
+         بنابراین دارایی نهایی شما برابر است با
+     </p>
+     <p>
+        ({{ C.ENDOWMENT }})-({{ player.contribution }})+({{ group.individual_share }})=  <strong> {{ player.payoff }}</strong>
+     </p>
+    {{ next_button }}
+
+{{ endblock }}

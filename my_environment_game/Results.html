@@ -1,0 +1,28 @@
+{{ block title }}
+    نتایج
+{{ endblock }}
+
+{{ block content }}
+ <style>
+.otree-body {
+direction:rtl;text-align:justify;
+}
+ </style>
+
+    <P>
+        سهمیه مجاز شما برای استخراج از منبع طبیعی {{ C.ENDOWMENT }} واحد بود که شما به میزان <strong>{{ player.exrtaction }}</strong> واحد استخراج کردید.
+    </P>
+    <P>
+        همگروهی های شما (3 نفر دیگر) به طور متوسط <strong>{{average_others}}</strong> واحد (این عدد ممکن است رند شده باشد) استخراج کرده اند و مجموع استخراج هر سه نفر آنها برابر {{total_others}} بوده است.
+    </P>
+    <P>
+        کل منبع به ارزش 400 واحد بود که بعد از استخراجی که از آن صورت گرفت، باقی مانده آن (به ارزش {{ group.total_contribution }} واحد) ضرب در 2 شد و بین 4 نفر به صورت مساوی تقسیم گردید که به هر نفر {{ group.individual_share }} واحد(این عدد ممکن است رند شده باشد) تعلق گرفت.
+    </P>
+    <p>
+        امتیاز نهایی کسب شده توسط شما معادل است با میزان استخراج شما به علاوه آنچه از دوبرابر شدن باقی مانده منبع طبیعی بین همه به صورت مساوی تقسیم میشود که مجموعا برابر است با :
+    </p>
+<p>
+({{ player.exrtaction }})+({{ group.individual_share }})=<strong>{{ player.payoff }}</strong>
+</p>
+{{ next_button }}
+{{ endblock }}
